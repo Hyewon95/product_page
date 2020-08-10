@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+#product{}
+#product .total_pd{width: 1200px;margin: 0 auto;padding: 20px 0;}
+#product .total_pd .sort_button{padding-bottom: 20px;}
+#product .total_pd .sort_button button{padding: 10px 20px;border: 1px solid #777777;border-radius: 4px;background: #ffffff;cursor: pointer;}
+#product .total_pd .sort_button button:hover, #product .total_pd .sort_button button.active{background: #aaaaaa;}
+#product .total_pd .sort_button .sort_sel{padding: 10px 20px;background: #ffffff;border: 1px solid #777777;border-radius: 4px;cursor: pointer;background-image: url(../img/arrow-down.png);background-repeat: no-repeat;background-position: 90% 50%;background-size: auto 16px;-webkit-appearance: none;appearance: none;}
+#product .total_pd .sort_button .sort_sel option{}
+
+#product .total_pd .pd_frame{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: flex-start;align-items: flex-start;padding: 20px 20px 0;border: 1px solid #bbbbbb;border-radius: 4px;}
+#product .total_pd .pd_frame .pd_box{width: calc(25% - 20px);margin: 0 10px 20px;padding: 10px;border: 1px solid #bbb;box-shadow: 0 0 8px #aaa;}
+#product .total_pd .pd_frame .pd_box .pd_photo{position: relative;width: 100%;height: 200px;overflow: hidden;}
+#product .total_pd .pd_frame .pd_box .pd_photo img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);height: 100%;}
+#product .total_pd .pd_frame .pd_info{}
+#product .total_pd .pd_frame .pd_info .pd_title{font-size: 20px;color: #555555;padding-top: 10px;}
+#product .total_pd .pd_frame .pd_info .pd_txt{font-size: 16px;color: #888888;padding: 10px 0;}
+#product .total_pd .pd_frame .pd_info .pd_etc{display: flex;justify-content: space-between;padding: 10px 0;border-top: 1px solid #bbb;}
+#product .total_pd .pd_frame .pd_info .pd_etc .pd_price{font-weight: bold;}
+#product .total_pd .pd_frame .pd_info .pd_etc .pd_date{font-size: 14px;}
+#product .total_pd .pd_frame .pd_info .fav{padding: 0 0 10px;text-align: right;font-size: 14px;}
+#product .total_pd .pd_frame .pd_info .fav span{color: #ff0000;}
+
+#product .total_pd .pager{padding: 20px 0;text-align: center;font-size: 0;}
+#product .total_pd .pager li{display: inline-block;width: 36px;padding: 0 5px;font-size: 17px;line-height: 1;border-right: 1px solid #888888;cursor: pointer;}
+#product .total_pd .pager li:last-child{border-right: none;}
+#product .total_pd .pager li.active{color: #ff0000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
